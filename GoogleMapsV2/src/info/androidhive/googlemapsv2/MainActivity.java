@@ -45,8 +45,8 @@ public class MainActivity extends Activity implements OnMapClickListener,OnCamer
 	Context mainactivity_context = this;
 	String selectedLocAddress;
     private GoogleMap googleMap;
-    double latitude = 28.6100;
-    double longitude = 77.2300;
+    double latitude = 0;
+    double longitude = 0;
     double lat_hyd = 28.6100;//17.3660;
     double lon_hyd = 77.2300;//78.4760;
     MarkerOptions marker;
